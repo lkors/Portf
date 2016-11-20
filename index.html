@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web Design Portfolio of Laura Korsmaa 2016, a UI/ UX Designer and an artist.">
+    <meta name="author" content="Laura Korsmaa">
+
+    <title>Laura Kõrsmaa's Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="page-wrap">
+        <!-- Navigation -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="top-nav">
+                    <span class="navbar-brand text-center" href="#">KÕRSMAA</span>
+                    <!-- <ul class="nav navbar-nav navbar-left hidden-xs">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul> -->
+                    <ul class="nav navbar-nav navbar-left hidden-xs smedia">
+                        <li>
+                            <a class="email" href="mailto:laura.korsmaa@gmail.com?Subject=Hello%20there"></a>
+                        </li>
+                        <li>
+                            <a class="linkedin" href="https://ee.linkedin.com/in/laurakorsmaa"></a>
+                        </li>
+                        <li>
+                            <a class="snap" href="https://www.snapchat.com/add/instala"></a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="https://twitter.com/LauraKrsmaa"></a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="https://www.instagram.com/laurakrsmaa/"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
+        <div class="content">
+
+            <div class="container">
+
+                <!-- Jumbotron Header -->
+                <header class="hero-spacer">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-1">
+                            <h1>— Laura Kõrsmaa is a User Interface and User Experience Designer living in a snowy tech-country Estonia.</h1>
+                        </div>
+                    </div>
+                </header>
+                <!-- Page Features -->
+                <div class="row text-center">
+
+                    <div class="col-md-5 col-md-offset-1 col-sm-6 fade_in_and_bounce_from_left_left">
+                        <a href="works.html">
+                            <div class="thumbnail thumb">
+                                <div class="type-caption">
+                                    <h1>&lt;Web/&gt;</h1>
+                                </div>
+                                <img src="img/jauntershowcase.png" alt="">
+                                <!-- <img src="img/jaunter-small.png" srcset="img/jauntershowcase.png 1000w" alt="yah"> -->
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-5 col-sm-6 hero-feature fade_in_and_bounce_from_left_rightmost">
+                        <a href="arts.html">
+                            <div class="thumbnail thumb">
+                                <div class="arts-caption type-caption">
+                                    <h1>Arts</h1>
+                                </div>
+                                <img src="img/color.png" class="color-splash" alt="">
+                                <img src="img/arts.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content -->
+    </div>
+
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-6 col-md-offset-6">
+                        <div class="touch">
+                            <div class="col-md-5">
+                                <span class="title-get">Get in touch</span>
+                            </div>
+                            <div class="col-md-7">
+                                <ul class="smedia smedia-touch nav navbar-nav">
+                                    <li>
+                                        <a class="email-green" href="ailto:laura.korsmaa@gmail.com?Subject=Hello%20there"></a>
+                                    </li>
+                                    <li>
+                                        <a class="linkedin-green" href="https://ee.linkedin.com/in/laurakorsmaa"></a>
+                                    </li>
+                                    <li>
+                                        <a class="snap-green" href="https://www.snapchat.com/add/instala"></a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter-green" href="https://twitter.com/LauraKrsmaa"></a>
+                                    </li>
+                                    <li>
+                                        <a class="insta-green" href="https://www.instagram.com/laurakrsmaa/"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+<script>
+    $(document).ready(function() {
+        $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+    });
+</script>
