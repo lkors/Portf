@@ -7,12 +7,18 @@
 		"uuidString": "8CF76E7F-EF22-4358-B7B4-F13FD79E5211"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/arts.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/arts.html",
+		"oF": 0
+		},
+	"\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/css\/bootstrap.css": {
@@ -160,51 +166,56 @@
 	"\/img\/arts-smaller.png": {
 		"ft": 32768,
 		"iS": 43941,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/arts-smaller.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/arts.png": {
 		"ft": 32768,
 		"iS": 60586,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/arts.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/color.png": {
 		"ft": 32768,
 		"iS": 107423,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/color.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/jaunter-small.png": {
 		"ft": 32768,
 		"iS": 563793,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/jaunter-small.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/jauntershowcase.png": {
 		"ft": 32768,
 		"iS": 857885,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/img\/jauntershowcase.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -1215,6 +1226,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2039,14 +2054,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2109,7 +2116,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
