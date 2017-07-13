@@ -12,7 +12,7 @@
     }
 
     body {
-        font-family: 'Roboto Condensed';
+        font-family: 'Roboto';
         height: auto;
     }
     img {
@@ -34,9 +34,18 @@
         background-color: transparent;
     }
 
+    h1 {
+      font-size: 30px;
+    }
+
+h4 {
+  font-weight: 400;
+}
     p {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #696969;
+        font-weight: 300;
     }
 
     .nav>li>a:focus, .nav>li>a:hover {

@@ -7,7 +7,7 @@
 		"uuidString": "8CF76E7F-EF22-4358-B7B4-F13FD79E5211"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/arts.html": {
 		"ft": 8192,
@@ -2202,6 +2202,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
